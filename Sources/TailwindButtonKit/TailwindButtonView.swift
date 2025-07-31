@@ -12,6 +12,11 @@ struct TailwindButtonView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 20) {
+                HStack {
+                    // 使用特定色阶（50-900）
+                    TailwindButton("浅色按钮", color: .blue, shade: .s100) {}
+                    TailwindButton("深色按钮", color: .indigo, shade: .s900) {}
+                }
                 // 不同颜色按钮
                 HStack {
                     TailwindButton("Slate", color: .slate) {}
@@ -88,5 +93,29 @@ struct TailwindButtonView: View {
 
 #Preview {
     TailwindButtonView()
+        .preferredColorScheme(.dark)
+}
+
+struct ShadePreview: View {
+    var body: some View {
+        ScrollView {
+            VStack {
+                ForEach(TailwindButton.ColorScheme.allCases, id: \.self) { color in
+                    VStack {
+                        ForEach(TailwindButton.ColorShade.allCases, id: \.self) { shade in
+                            TailwindButton("Shade \(shade)",color: color, shade: shade) {
+                                print("Shade \(shade)")
+                            }
+                        }
+                        Divider()
+                    }
+                }
+            }
+        }
+    }
+}
+
+#Preview {
+    ShadePreview()
         .preferredColorScheme(.dark)
 }
