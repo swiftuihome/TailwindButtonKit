@@ -4,7 +4,7 @@
 import SwiftUI
 
 // MARK: - 主按钮组件
-struct TailwindButton: View {
+public struct TailwindButton: View {
     enum ButtonSize {
         case large
         case medium
@@ -68,7 +68,7 @@ struct TailwindButton: View {
         self.action = action
     }
     
-    var body: some View {
+    public var body: some View {
         Button(action: action) {
             HStack(spacing: spacing) {
                 if let icon = icon {
@@ -257,7 +257,7 @@ struct TailwindButton: View {
 }
 
 // MARK: - 颜色配置结构体
-struct TailwindColorPalette {
+public struct TailwindColorPalette {
     let color: TailwindButton.ColorScheme
     let style: TailwindButton.ButtonStyle
     
@@ -370,7 +370,7 @@ struct TailwindColorPalette {
 }
 
 // MARK: - Tailwind 颜色系统
-struct TailwindColors {
+public struct TailwindColors {
     static func slate(_ shade: Int) -> Color {
         switch shade {
         case 50: return Color(red: 248/255, green: 250/255, blue: 252/255)
