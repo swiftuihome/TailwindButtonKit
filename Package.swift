@@ -6,10 +6,10 @@ import PackageDescription
 let package = Package(
     name: "TailwindButtonKit",
     platforms: [
-        .iOS(.v14),
-        .macOS(.v11),
-        .tvOS(.v13),
-        .watchOS(.v6)
+        .iOS(.v17),
+        .macOS(.v14),
+        .watchOS(.v10),
+        .tvOS(.v17)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
@@ -22,6 +22,6 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "TailwindButtonKit"),
-
+        
     ]
 )

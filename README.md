@@ -1,6 +1,6 @@
 # TailwindButtonKit - SwiftUI 的 TailwindCSS 风格按钮组件库
 
-[![Swift 版本](https://img.shields.io/badge/Swift-5.5+-orange.svg)](https://swift.org)
+[![Swift 版本](https://img.shields.io/badge/Swift-5.9+-orange.svg)](https://swift.org)
 [![平台支持](https://img.shields.io/badge/平台-iOS%20|%20macOS%20|%20watchOS%20|%20tvOS-blue.svg)](https://developer.apple.com)
 [![开源协议](https://img.shields.io/badge/协议-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
 
@@ -142,9 +142,9 @@ TailwindButton("大号", size: .large) {}
 
 ## 系统要求
 
-- iOS 15.0+ / macOS 12.0+ / watchOS 8.0+ / tvOS 15.0+
-- Swift 5.5+
-- Xcode 13+
+- iOS 17.0+ / macOS 14.0+ / watchOS 10.0+ / tvOS 17.0+
+- Swift 5.9+
+- Xcode 16+
 
 ## 参与贡献
 
