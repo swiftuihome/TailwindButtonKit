@@ -6,7 +6,9 @@
 
 一个受 TailwindCSS 启发的 SwiftUI 按钮组件库，提供完整的 Tailwind 配色方案、多种尺寸和样式变体，支持悬停效果和动画。
 
-![TailwindButtonKit 预览图](https://github.com/swiftuihome/TailwindButtonKit/raw/main/Assets/preview.png)
+<img src="light.jpeg" alt="TailwindButtonKit 浅色主题预览图" style="width:300px;" />
+
+<img src="dark.jpeg" alt="TailwindButtonKit 深色主题预览图" style="width:300px;" />
 
 ## 特性
 
