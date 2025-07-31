@@ -56,7 +56,7 @@ struct ContentView: View {
 
 ```swift
 TailwindButton("保存", icon: "square.and.arrow.down") {
-    保存文档()
+    print("保存成功！")
 }
 ```
 
@@ -68,8 +68,13 @@ TailwindButton("删除",
               size: .large,
               style: .outline,
               color: .red) {
-    删除项目()
+    print("删除项目！")
 }
+```
+
+### 给按钮指定色阶
+```swift
+TailwindButton("深色按钮", color: .indigo, shade: .s900) {}
 ```
 
 ## 可用颜色
