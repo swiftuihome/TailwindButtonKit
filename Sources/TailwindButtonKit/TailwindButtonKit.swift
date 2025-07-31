@@ -5,20 +5,20 @@ import SwiftUI
 
 // MARK: - 主按钮组件
 public struct TailwindButton: View {
-    enum ButtonSize {
+    public enum ButtonSize {
         case large
         case medium
         case small
     }
     
-    enum ButtonStyle {
+    public enum ButtonStyle {
         case solid
         case outline
         case light
         case subtle
     }
     
-    enum ColorScheme {
+    public enum ColorScheme {
         case slate
         case gray
         case zinc
@@ -52,7 +52,7 @@ public struct TailwindButton: View {
     
     @State private var isHovered = false
     
-    init(
+    public init(
         _ text: String,
         icon: String? = nil,
         size: ButtonSize = .medium,
