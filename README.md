@@ -1,4 +1,4 @@
-# TailwindButtonKit - SwiftUI 的 TailwindCSS 风格按钮组件库
+# TailwindButtonKit - 一个使用 SwiftUI 开发的 TailwindCSS 风格按钮组件库
 
 [![Swift 版本](https://img.shields.io/badge/Swift-5.9+-orange.svg)](https://swift.org)
 [![平台支持](https://img.shields.io/badge/平台-iOS%20|%20macOS%20|%20watchOS%20|%20tvOS-blue.svg)](https://developer.apple.com)
